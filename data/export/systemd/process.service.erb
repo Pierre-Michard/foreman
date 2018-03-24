@@ -2,7 +2,6 @@
 PartOf=<%= app %>-<%= name %>.target
 
 [Service]
-User=<%= user %>
 WorkingDirectory=<%= engine.root %>
 Environment=PORT=%i
 <% engine.env.each_pair do |var,env| -%>
